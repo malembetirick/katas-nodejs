@@ -1,0 +1,22 @@
+{
+  "name": "bigparsing_confirmed",
+  "version": "1.0.0",
+  "repository": "https://github.com/malembetirick/katas-nodejs",
+  "author": "Rick MALEMBETI",
+  "main": "solution.js",
+  "license": "MIT",
+  "scripts": {
+    "solution": "node --max_old_space_size=50 solution.js",
+    "test": "jest --detectOpenHandles"
+  },
+  "engines": {
+    "node": "16.13.2"
+  },
+  "dependencies": {
+    "stream-json": "^1.7.3",
+    "yargs": "^17.3.1"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
